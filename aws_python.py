@@ -2,8 +2,8 @@ import boto3
 import csv
 
 s3 = boto3.resource('s3',
-    aws_access_key_id='AKIA6EYCMYMG4WP5UCEA',
-    aws_secret_access_key='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' )
+    aws_access_key_id='key',
+    aws_secret_access_key='key' )
 
 try:
     s3.create_bucket(Bucket='quinnbucket', CreateBucketConfiguration={
